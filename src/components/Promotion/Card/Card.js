@@ -12,7 +12,6 @@ const PromotionCard = ({promotion}) => (
       {promotion.comments.length > 0 && (
         <div className="promotion-card__comments">"{promotion.comments[0].comment}"</div>
       )}
-
       <div className="promotion-card__comments-count">
         {promotion.comments.length} {' '}
          Comentário
