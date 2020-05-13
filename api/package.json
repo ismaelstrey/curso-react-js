@@ -1,0 +1,14 @@
+{
+  "name": "ApiServer",
+  "version": "1.0.0",
+  "description": "Api teste local",
+  "main": "db.json",
+  "author": "Ismael Strey Pereira",
+  "license": "MIT",
+  "scripts": {
+    "start": "json-server --watch db.json --port 5000 --delay=1000"
+  },
+  "dependencies": {
+    "json-server": "^0.16.1"
+  }
+}
