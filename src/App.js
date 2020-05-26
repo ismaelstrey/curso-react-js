@@ -1,16 +1,11 @@
-import React from 'react';
-import Root from './pages/Root';
+import React from "react";
+import Root from "./pages/Root";
 
-const App =() =>{
+const App = () => {
   return (
-    <div className="App"
-    style={{
-      maxWidth: 800,
-      margin: '30px auto'
-    }}
-      >
+    <div className="App">
       <Root />
     </div>
   );
-}
+};
 export default App;

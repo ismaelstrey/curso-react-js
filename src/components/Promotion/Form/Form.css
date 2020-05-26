@@ -1,0 +1,50 @@
+.promotion-form__container {
+  border: 1px solid #a59f9f;
+  padding: 20px;
+  border-radius: 8px;
+  font-family: Tangerine;
+  font-size: 22px;
+}
+.promotion-form__container header {
+  background: rgb(246, 250, 251);
+  border-radius: 8px;
+  padding: 20px;
+}
+.promotion-form__container button {
+  display: flex;
+  flex-direction: inherit;
+  background: rgb(49, 187, 206);
+  padding: 10px;
+  align-items: flex-end;
+  border-radius: 8px;
+  color: antiquewhite;
+  font-size: 16px;
+}
+.promotion-form__group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+.promotion-form__group label {
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #555555;
+}
+.promotion-form__group input {
+  border: 1px solid #aaaaaa;
+  border-radius: 8px;
+  background: #ffffff;
+  height: 36px;
+  padding: 0 10px;
+}
+.promotion-form__loading {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  align-items: center;
+}
+.promotion-form__loading p {
+  color: #c2e812;
+  align-items: center;;
+}

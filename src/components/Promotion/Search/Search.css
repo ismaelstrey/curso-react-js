@@ -8,13 +8,27 @@
   text-transform: uppercase;
   color: #888;
 }
-.promotion-search__input{
+.promotion-search__link {
+  text-decoration: none;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  padding: 8px;
+  color: #ffffff;
+  background: #3498db;
+  box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.15);
+}
+.promotion-search__link:hover {
+  box-shadow: 0 2px 7px 0 rgba(214, 16, 16, 0.15);
+  color: #3498db;
+  background: #ffffff;
+}
+.promotion-search__input {
   display: flex;
-height: 45px;
-border: 1px solid #ccc;
-border-radius: 8px;
-width: 100%;
-margin-bottom: 20px;
-padding: 0 10px;
-font-size: 16px;
+  height: 45px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 0 10px;
+  font-size: 16px;
 }
